@@ -94,7 +94,7 @@ export default function Home() {
           <strong>Loading...</strong>
         </div> :
         <div className="button-load-more">
-        <Button variant="contained" data-testid="button-load-more" color="primary" onClick={()=>{handleLoadData()}} >
+        <Button variant="contained" data-testid="button-load-more" color="primary" onClick={()=>{handleLoadData()}} data-testid="button-more">
           <AddCircleOutlineIcon /> &nbsp;
           Load More
           </Button>

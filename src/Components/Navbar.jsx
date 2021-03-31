@@ -72,11 +72,11 @@ export default function Navbar(){
             <img src={logo} style={{height: '45px'}}/>
           </IconButton>
           <div className="padding-0">
-          <ButtonBase color="inherit" onClick={()=>{history.push('/')}} classes={{root: classes.buttonNavItem}}>
+          <ButtonBase color="inherit" onClick={()=>{history.push('/')}} classes={{root: classes.buttonNavItem}} data-testid="explore">
             <img src={compass} style={{height: '43px'}}/>
             <Typography variant="subtitle" >Explore</Typography>
           </ButtonBase>
-          <ButtonBase color="inherit" onClick={()=>{history.push('/list')}} classes={{root: classes.buttonNavItem}}>
+          <ButtonBase color="inherit" onClick={()=>{history.push('/list')}} classes={{root: classes.buttonNavItem}} data-testid="list">
             <img src={bag} style={{height: '43px'}}/>
             <Typography variant="subtitle" >My Pokemon List</Typography>
           </ButtonBase>

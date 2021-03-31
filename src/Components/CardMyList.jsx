@@ -56,7 +56,7 @@ export default function MediaCard({pokemon, handleRelease}) {
         </CardContent>
       </CardActionArea>
       <CardActions classes={{root: classes.cardCatch}} onClick={()=>{handleRelease(pokemon.id)}} >
-        <Button size="small" color="primary" variant="contained">
+        <Button size="small" color="primary" variant="contained" data-testid="button-release">
         <img src={release} style={{height: 20}} /> &nbsp;
           <strong>Release</strong>
         </Button>

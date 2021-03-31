@@ -33,8 +33,8 @@ function App() {
     <ApolloProvider client={client}>
       <GlobalProvider>
         <Router>
-          <div className="App">
-            <Navbar />
+          <div className="App" data-testid="app">
+            <Navbar data-testid="navbar"/>
             <Switch>
               <Route exact path="/" component={Home}/>
               <Route exact path="/detail/:name" component={Detail}/>
