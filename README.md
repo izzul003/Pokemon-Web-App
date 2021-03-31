@@ -1,6 +1,6 @@
 # Pokemon-Web-App
 
-Pokemon Web App responsive On Mobile Platform , using react js, query GraphQl ,Apollo client, and React Context.
+Pokemon Web App is PWA and web responsive On Mobile Platform , using react js, query GraphQl ,Apollo client, and React Context.
 
 https://pokemon-web-app-izzul.web.app/
 
