@@ -1,0 +1,24 @@
+.img-gif{
+  height: 1000,
+}
+
+.paddingTop{
+  width: 100%;
+  padding-bottom: 50;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: 'center';
+  justify-content: 'center';
+}
+
+.container {
+  width: 100%;
+  margin-top: 35;
+  padding: 27;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
